@@ -1,0 +1,25 @@
+{
+  "name": "heavendapp",
+  "version": "1.0.0",
+  "description": "ProjectGye DApp",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeavenInc/Heaven_dApp.git"
+  },
+  "author": "SangphilKim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HeavenInc/Heaven_dApp/issues"
+  },
+  "homepage": "https://github.com/HeavenInc/Heaven_dApp#readme",
+  "devDependencies": {
+    "eth-gas-reporter": "^0.1.10"
+  }
+}

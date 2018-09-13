@@ -2,8 +2,15 @@ module.exports = {
     networks: {
      development: {
      host: "localhost",
-     port: 7545,
-     network_id: "5777" // Match any network id
+     port: 9545, //ganache: 7545, truffle develop: 9545
+     network_id: "*" // ganache: 5777
+     }
+    },
+    mocha: {
+     reporter: 'eth-gas-reporter',
+     reporterOptions : {
+      currency: 'KRW',
+      gasPrice: 21
+     }
     }
-   }
 };
